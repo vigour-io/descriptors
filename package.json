@@ -34,5 +34,17 @@
     "istanbul": "^0.4.4",
     "standard": "^7.1.2",
     "tape": "^4.6.0"
+  },
+  "browserify": {
+    "transform": [
+      [
+        "babelify",
+        {
+          "presets": [
+            "es2015"
+          ]
+        }
+      ]
+    ]
   }
 }
