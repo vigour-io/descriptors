@@ -1,6 +1,6 @@
 {
   "name": "descriptors",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Like Object.getOwnPropertyDescriptor, but goes along the prototype chain and gets the descriptors for all properties.",
   "main": "lib/index.js",
   "scripts": {
