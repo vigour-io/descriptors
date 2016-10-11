@@ -1,6 +1,6 @@
 {
   "name": "descriptors",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Like Object.getOwnPropertyDescriptor, but goes along the prototype chain and gets the descriptors for all properties.",
   "main": "lib/index.js",
   "scripts": {
@@ -32,7 +32,7 @@
     "bubleify": "^0.5.1"
   },
   "devDependencies": {
-   "ducktape": "^1.0.0",
+    "ducktape": "^1.0.0",
     "coveralls": "^2.11.9",
     "istanbul": "^0.4.3",
     "nodemon": "^1.9.1",
