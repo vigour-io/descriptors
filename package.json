@@ -4,7 +4,7 @@
   "description": "Like Object.getOwnPropertyDescriptor, but goes along the prototype chain and gets the descriptors for all properties.",
   "main": "lib/index.js",
   "scripts": {
-    "test": "NODE_ENV=test node test | tap-difflet && vtest test | tap-difflet && standard",
+    "test": "NODE_ENV=test node test | tap-difflet && vtest | tap-difflet && standard",
     "cover": "istanbul cover --report none --print detail test/index.js",
     "view-cover": "istanbul report html && open ./coverage/index.html",
     "dev": "nodemon test | tap-difflet",
