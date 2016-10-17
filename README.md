@@ -7,6 +7,7 @@ Like [`Object.getOwnPropertyDescriptor`](https://developer.mozilla.org/en/docs/W
 [![Coverage Status](https://coveralls.io/repos/github/vigour-io/descriptors/badge.svg?branch=master)](https://coveralls.io/github/vigour-io/descriptors?branch=master)
 
 --
+
 **Usage**
 
 ```javascript
